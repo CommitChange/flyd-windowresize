@@ -1,0 +1,32 @@
+{
+  "name": "flyd-windowresize",
+  "version": "0.0.2",
+  "description": "flyd module to get a window resize stream",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.es6 > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayrbolton/flyd-windowresize.git"
+  },
+  "keywords": [
+    "flyd",
+    "window",
+    "resize"
+  ],
+  "author": "jay r bolton <jayrbolton@gmail.com> (http://jayrbolton.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayrbolton/flyd-windowresize/issues"
+  },
+  "homepage": "https://github.com/jayrbolton/flyd-windowresize#readme",
+  "dependencies": {
+    "flyd": "0.2.2",
+    "ramda": "0.21.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "6.9.0",
+    "babelify": "7.3.0"
+  }
+}
